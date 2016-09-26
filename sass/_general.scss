@@ -1,0 +1,68 @@
+// This hides the other buttons after the first button
+.hide {
+	display: none;
+}
+// display the pop out images title
+.mfp-title {
+    text-align: center !important;
+    color: #fff;
+    word-wrap: break-word;
+    font-family: 'Cabin', sans-serif;
+	font-size:16px;
+}
+button.mfp-arrow{
+	opacity:1;
+}
+// hides the counting number for portfolio images
+.mfp-counter{
+	display: none;
+}
+
+h1, h2{
+	font-family: 'Prata', serif;
+}
+p{
+	font-family: 'Cabin', sans-serif;
+}
+html {
+    margin-top: 0px !important;
+}
+
+.body-wrapper{
+	max-width: 1400px;
+	margin:0 auto;
+	display: block;
+}
+
+.mfp-arrow:before, .mfp-arrow:after {
+    border: none !important;
+}
+
+button.mfp-arrow{
+	opacity:1;
+}
+
+.mfp-arrow:before, .mfp-arrow:after {
+ 	color:#fff !important;
+    font-size: 25px !important;
+}
+
+.social-icons .fa:hover{
+	opacity:.7;
+}
+@media all and (max-width: 850px) { 
+	.mfp-arrow {
+	    bottom: 15% !important;
+	}
+
+}
+
+@media all and (max-width: 760px) { 
+	bottom: 17% !important;
+
+}
+@media all and (max-width: 700px) { 
+	bottom: 20% !important;
+
+}
+

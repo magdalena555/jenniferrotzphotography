@@ -1,0 +1,61 @@
+/*
+* Theme Name: Wynd Creative Starter Theme
+* Theme URI: http://wyndcreative.com;
+* Description: Theme Developed By Wynd Creative for Cross & Crown.
+* Version: 1.0
+* Author: Wynd Creative
+* Author URI: http://wyndcreative.com;
+*/
+
+@import 'normalize';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'general';
+@import 'header';
+@import 'home';
+@import 'mystory';
+@import 'experience';
+@import 'portfolio';
+@import 'portfolio-single';
+@import 'blog';
+@import 'blogsingle';
+@import 'contact';
+@import 'footer';
+/*
+====================================
+Default Styling
+====================================
+*/
+
+img {
+	max-width: 100%;
+}
+
+body {
+	color: #333;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.content {
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+}
+
+.full {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
